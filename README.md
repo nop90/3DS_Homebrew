@@ -10,12 +10,17 @@ psdraw still doesn't work! I wrote it on a paper sketch of stereographic coordin
 
 This work is partially based on the work of other people (take a look at the linked gbatemp.net discussion), but i changed some function name to my own naming convection. 
 
-I fixed a bug in the original pixel drawing function (it was out of sync by one pixel) and set the correct indexex for framebuffer=0 (still using postfix FRAME1 in the code, but I'll change it soon). The indexes for the other framebuffer should be right, but are not widely tested yet
-
 Currently working on:
 - swapping frame buffers
-- getting input from 3DS buttons and circlepad
-- fixing the 3DS effect
+- getting input from circlepad
+- fixing the 3D effect
 
 
 nop90
+
+Changelog
+============
+
+01/18/2014 - Fixed buffer pointers and implemented HID management (only buttons. circlepad not yet).
+
+01/17/2014 - First release. Fixed bug in original pixel drawing function from InsaneKane.
