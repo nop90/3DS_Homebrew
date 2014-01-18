@@ -1,5 +1,5 @@
 ifndef HID_H
-#define MEMORY_H
+#define HID_H
 
 #define BUTTON_A 1
 #define BUTTON_B 2
