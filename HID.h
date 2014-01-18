@@ -1,4 +1,4 @@
-ifndef HID_H
+#ifndef HID_H
 #define HID_H
 
 #define BUTTON_A 1
