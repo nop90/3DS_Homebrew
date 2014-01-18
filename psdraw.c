@@ -59,15 +59,15 @@ int pY(int y,int z){
 
 void psdraw_pixel(int x, int y,int z, char r, char g, char b){
   if ((z>=Z_LOW)&(z<=Z_HIGH)){
-    draw_pixel(pXleft(x,z),pY(y,z),r,g,b,TOP_LEFT_FRAME1);
-    draw_pixel(pXright(x,z),pY(y,z),r,g,b,TOP_LEFT_FRAME2);
+    draw_pixel(pXleft(x,z),pY(y,z),r,g,b,TOP_LEFT_FRAME0);
+    draw_pixel(pXright(x,z),pY(y,z),r,g,b,TOP_LEFT_FRAME1);
   }
 }
 
 void psdraw_line( int x1, int y1, int x2, int y2, int z, char r, char g, char b){
   if ((z>=Z_LOW)&(z<=Z_HIGH)){
-    draw_line(pXleft(x1,z),pY(y1,z),pXleft(x2,z),pY(y2,z),r,g,b,TOP_LEFT_FRAME1);
-    draw_line(pXright(x1,z),pY(y1,z),pXright(x2,z),pY(y2,z),r,g,b,TOP_LEFT_FRAME2);
+    draw_line(pXleft(x1,z),pY(y1,z),pXleft(x2,z),pY(y2,z),r,g,b,TOP_LEFT_FRAME0);
+    draw_line(pXright(x1,z),pY(y1,z),pXright(x2,z),pY(y2,z),r,g,b,TOP_LEFT_FRAME1);
   }
 }
 
