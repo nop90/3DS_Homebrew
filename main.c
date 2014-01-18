@@ -127,6 +127,7 @@ int main()
       if (HID_new & BUTTON_RIGHT){
         draw_fillrect(243,116,255,128,0,0,0, BOTTOM_FRAME0);
         draw_rect(243,116,255,128,0,0,255, BOTTOM_FRAME0);
+        draw_fillrect(243,116,255,128,0,0,0, BOTTOM_FRAME1);
         draw_rect(243,116,255,128,0,0,255, BOTTOM_FRAME1);
       } else {
         draw_fillrect(243,116,255,128,0,0,255, BOTTOM_FRAME0);
