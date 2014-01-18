@@ -21,7 +21,7 @@ void draw_color(int address, char r, char g, char b){
 
 void draw_pixel(int x, int y, char r, char g, char b, int screen){
 /*  int width;
-  if((screen==BOTTOM_FRAME1)|(screen==BOTTOM_FRAME2)){
+  if((screen==BOTTOM_FRAME0)|(screen==BOTTOM_FRAME1)){
     width=BOTTOM_WIDTH;
   } else {
     width=TOP_WIDTH;
@@ -56,7 +56,7 @@ void draw_string(char* word, int x,int y, char r, char g, char b, int screen){
     int width;
 
   switch(screen){
-    case BOTTOM_FRAME1:
+    case BOTTOM_FRAME0:
       width=BOTTOM_WIDTH;
       break;
     default:
