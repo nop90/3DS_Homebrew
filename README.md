@@ -1,7 +1,9 @@
 3DS_Homebrew
 ============
 
-Sample app with basic libraries for 3DS
+Sample app with basic libraries for 3DS on barebone ARM 
+
+NOTE: This lib is outdated
 
 http://gbatemp.net/threads/homebrew-development.360646/#post-4887740
 
